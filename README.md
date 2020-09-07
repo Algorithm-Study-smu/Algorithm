@@ -63,7 +63,7 @@ codeground : https://www.codeground.org/practice
 
 ### 공통문제
 
-* 주에 1~2문제 예상
+* 주에 3 문제 (난이도는 맞출 예정)
 * 시간 정해두고 문제 풀기 (특정 시간)
   * 실제 코딩테스트 대비를 위해 시간을 정해두고 푸는 것을 권장 (최대 2시간 이내)
 * 문제풀이 마크다운 작성 후 업로드
@@ -105,15 +105,15 @@ local workspace에 'LeeJeongHwi'라는 이름으로 브랜치 생성
 
 로컬 브랜치가 있는 폴더에서 개인작업을 마친 후 공동 저장소에 반영한다.
 
-1. `**git checkout LeeJeongHwi** `- master에서 LeeJeonghwi 브랜치로 전환
+1. `git checkout LeeJeongHwi`- master에서 LeeJeonghwi 브랜치로 전환
 2. workspace에서 작업
-3. `**git add .**`
-4. `**git commit -m "message"**`
-5. `**git push origin LeeJeongHwi** `- 원격저장소 LeeJeonghwi 브랜치에 반영
-6. `**git checkout master** `- 브랜치 전환
-7. `**git pull** `- 원격저장소 master의 최신 정보를 로컬에 업데이트 시키기
-8. `**git merge LeeJeongHwi** `- master에 LeeJeonghwi 브랜치 작업 반영
-9. `**git push origin master** `- 원격저장소 master에 반영
+3. `git add .`
+4. `git commit -m "message"`
+5. `git push origin LeeJeongHwi`- 원격저장소 LeeJeonghwi 브랜치에 반영
+6. `git checkout master `- 브랜치 전환
+7. `git pull `- 원격저장소 master의 최신 정보를 로컬에 업데이트 시키기
+8. `git merge LeeJeongHwi `- master에 LeeJeonghwi 브랜치 작업 반영
+9. `git push origin master `- 원격저장소 master에 반영
 
 ### 주의할 점
 
